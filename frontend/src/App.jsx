@@ -7,7 +7,7 @@ function App() {
     <div>
       <Navbar />
       <div className="flex flex-col gap-5">
-        <div className="mt-5 text-center text-2xl font-bold font-serif">
+        <div className="mt-5 text-center text-2xl font-bold font-serif ">
           <h1>Bamiya resturent menu</h1>
         </div>
 

@@ -116,26 +116,6 @@ export default function BamiyanMenu() {
       {/* Header Banner */}
       <header className="bg-gradient-to-r from-red-800 via-red-700 to-amber-700 border-b border-amber-500/30 shadow-lg">
         <div className="max-w-6xl mx-auto px-4 py-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <div>
-            <div className="flex items-center gap-2">
-              <span className="bg-amber-400 text-red-950 text-xs font-black px-2 py-0.5 rounded uppercase tracking-wider">
-                中華レストラン
-              </span>
-              <span className="text-amber-200 text-xs tracking-widest uppercase">
-                Japanese-Chinese Fusion
-              </span>
-            </div>
-            <h1 className="text-4xl font-extrabold text-white mt-1 tracking-tight">
-              BAMIYAN{" "}
-              <span className="text-amber-300 font-normal text-2xl">
-                バーミヤン
-              </span>
-            </h1>
-            <p className="text-red-100 text-sm mt-1">
-              Authentic Wok & Dim Sum Delights
-            </p>
-          </div>
-
           <div className="flex items-center gap-3 bg-red-950/60 backdrop-blur px-4 py-2 rounded-full border border-amber-400/30">
             <Utensils className="w-5 h-5 text-amber-400" />
             <span className="text-sm font-semibold">

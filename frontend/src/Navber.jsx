@@ -8,8 +8,8 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex-shrink-0 font-bold text-xl text-indigo-400">
-            MyBrand
+          <div className="flex-shrink-0 font-bold text-xl text-white ">
+            Bamiyan
           </div>
 
           {/* Desktop Links */}
@@ -44,7 +44,7 @@ export default function Navbar() {
 
           {/* Action Button */}
           <div className="hidden md:block">
-            <button className="bg-indigo-600 hover:bg-indigo-500 text-white px-4 py-2 rounded-md text-sm font-medium transition">
+            <button className="bg-white hover:bg-indigo-500 text-black px-4 py-2 rounded-md text-sm font-medium transition">
               Get Started
             </button>
           </div>
